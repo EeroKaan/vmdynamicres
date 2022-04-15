@@ -11,6 +11,23 @@ This is especially useful when one uses the same VM on different hosts, with dif
 
 ## Installation
 
+### Prepare GNOME Schema
+
+You can also refer to [this tutorial](https://kaanlabs.com/ubuntu-set-scaling-factor-to-200-percent).
+
+```
+nano /usr/share/glib-2.0/schemas/90_hidpi.gschema.override
+
+[org.gnome.desktop.interface]
+scaling-factor=1
+
+glib-compile-schemas /usr/share/glib-2.0/schemas
+
+shutdown -r now
+```
+
+### Install vmdynamicres
+
 ```
 sudo -i
 
