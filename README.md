@@ -28,8 +28,8 @@ ln -s /usr/local/bin/vmdynamicres/vmdynamicres.desktop vmdynamicres.desktop
 shutdown -r now
 ```
 
-## Licence / Credits
+## License / Credits
 
-vmdynamicres uses the [xeventbind utility written by ritave](https://github.com/ritave/xeventbind), to automatically adjust for a changed VM window size.
+vmdynamicres uses the [xeventbind utility written by ritave (Olaf Tomalka)](https://github.com/ritave/xeventbind), to automatically adjust for a changed VM window size.
 
-vmdynamicres can be used under the MIT licence.
+vmdynamicres can be used under the MIT license.
