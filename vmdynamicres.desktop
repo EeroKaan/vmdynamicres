@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=vmdynamicres
+Terminal=false
+Exec=/bin/bash -c "echo '<YOUR-ROOT-PASSWORD>' | sudo -S /bin/bash -c '/usr/local/bin/vmdynamicres/scaleWatchdog.sh'"
